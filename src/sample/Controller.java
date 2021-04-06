@@ -48,7 +48,7 @@ public class Controller {
         String city_text = input.getText().trim().toLowerCase();
         if (city_text.length()>0){
 
-            Weather weather = new Gson().fromJson(Api.getSender("http://api.openweathermap.org/data/2.5/weather?q="+city_text+"&appid="+ Key.weather_key +"&units=metric"), Weather.class);
+            Weather weather = new Gson().fromJson(Api.getSender("http://api.openweathermap.org/data/2.5/weather?q="+city_text+"&appid="+ Key.weather_key+"&units=metric"), Weather.class);
             if (weather != null){
                 city.setText(city_text);
                 description.setText("description:\t" + weather.getWeather().get(0).getDescription());
