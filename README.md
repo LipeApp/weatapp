@@ -5,3 +5,5 @@ Ob-Havo aniqlaydigan dastur. Juda oson va oddiy
 
 ##[LipeApp](http://lipeapp.uz)
 
+###Ishlatilgan bibloteka xammasi javafx papka ichida
+
